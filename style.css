@@ -3,6 +3,7 @@
     width: 50%;
     padding: 10px;
     margin-top: 30px;
+    text-align: center;
 
 }
 a {
@@ -12,4 +13,16 @@ a {
     text-decoration: none;
     color: black;
     border-radius: 5px;
+    background-color: aquamarine;
+    box-shadow: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.face {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
