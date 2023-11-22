@@ -41,9 +41,11 @@ img {
     height: 600px;
 }
 
-#heroText {
+#mainSection #heroText {
     margin: auto;
-    padding-right: 10px;
+    background-color: yellow;
+    text-align: center;
+    min-width: 150px;
 }
 
 h2 {
