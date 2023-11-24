@@ -26,3 +26,21 @@ margin-right: 25px;
     background-color: aquamarine;
     box-shadow: 10px;
 }
+
+#pageTitle {
+    display: flex;
+    margin: auto;
+    background-color: yellow;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#myName {
+    font-size: 40px;
+    font-weight: bold;
+}
