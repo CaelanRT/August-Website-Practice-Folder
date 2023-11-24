@@ -1,12 +1,22 @@
-.topnav {
+#topnav {
+    display: flex;
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    align-items: center;
+    border-bottom: 1px black solid;
     margin-top: 30px;
-    text-align: center;
-
+    padding-bottom: 30px;
 }
-a {
+
+#portfolioTitle {
+    margin-left: 25px;
+}
+
+#navButtons {
+margin-left: auto;
+margin-right: 25px;
+}
+
+.topButton {
     border: 1px solid black;
     padding: 15px;
     font-size: 20px;
@@ -15,8 +25,4 @@ a {
     border-radius: 5px;
     background-color: aquamarine;
     box-shadow: 10px;
-}
-
-h1 {
-    text-align: center;
 }
