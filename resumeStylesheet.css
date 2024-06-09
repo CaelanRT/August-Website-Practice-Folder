@@ -1,3 +1,4 @@
+/* Nav Bar */
 #topnav {
     display: flex;
     margin: auto;
@@ -7,9 +8,6 @@
     padding-bottom: 30px;
 }
 
-#portfolioTitle {
-    margin-left: 25px;
-}
 
 #navButtons {
 margin-left: auto;
@@ -30,7 +28,6 @@ margin-right: 25px;
 #pageTitle {
     display: flex;
     margin: auto;
-    background-color: yellow;
     flex-direction: column;
     text-align: center;
 }
