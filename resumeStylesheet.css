@@ -32,6 +32,11 @@ margin-right: 25px;
     text-align: center;
 }
 
+.workExperience {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 h2 {
     font-size: 50px;
 }
@@ -52,6 +57,16 @@ h2 {
 
 .show-text .job-bullets {
     display: block;
+}
+
+#education {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#certifications {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #footer {
