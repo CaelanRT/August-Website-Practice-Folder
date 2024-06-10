@@ -25,6 +25,17 @@ margin-right: 25px;
 }
 
 /* main section */
+#mainSection {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
 
 /* footer */
 #footer {
