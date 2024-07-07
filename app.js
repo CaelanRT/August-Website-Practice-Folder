@@ -1,3 +1,4 @@
+// open resume info
 const toggleBtn = document.querySelectorAll('.toggle-btn');
 
 toggleBtn.forEach(function(btn) {
@@ -7,3 +8,8 @@ toggleBtn.forEach(function(btn) {
     });
 });
 
+// close links
+document.getElementById('toggle-button').addEventListener('click', function() {
+    var navbarLinks = document.getElementById('navbar-links');
+    navbarLinks.classList.toggle('active');
+});

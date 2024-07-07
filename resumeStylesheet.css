@@ -1,28 +1,83 @@
 /* Nav Bar */
-#topnav {
+.navbar {
     display: flex;
-    margin: auto;
+    justify-content:space-between;
     align-items: center;
+    padding: 10px 20px;
     border-bottom: 1px black solid;
-    margin-top: 30px;
-    padding-bottom: 30px;
+    
 }
 
+.navbar-links {
+    display: none;
+    
+}
 
-#navButtons {
-margin-left: auto;
-margin-right: 25px;
+.navbar-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-links ul li {
+    display: inline;
+}
+
+.navbar-links ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 2px;
+}
+
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 25px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+@media (min-width: 768px) {
+    .toggle-button {
+        display: none;
+    }
+
+    .navbar-links {
+        display: flex;
+    }
+
+    .navbar-links ul {
+        display: flex;
+    }
+
+    .navbar-links ul li {
+        display: block;
+    }
+}
+
+.navbar-links.active {
+    display: flex;
 }
 
 .topButton {
     border: 1px solid black;
     padding: 15px;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
     border-radius: 5px;
     background-color: aquamarine;
-    box-shadow: 10px;
+}
+
+/* Main Section */
+
+.mainSection {
+    border-bottom: 1px black solid;
 }
 
 #pageTitle {
@@ -72,9 +127,7 @@ h2 {
 #spacer {
     background-color: black;
     height: 1px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
 }

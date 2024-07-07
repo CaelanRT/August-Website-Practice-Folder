@@ -12,101 +12,108 @@
 </head>
 <body>
     <!-- topnav -->
-     <nav>
-        <div id="topnav">
-            <div id="portfolioTitle">
-                <h1>Caelan's Portfolio Website</h1>
-            </div>
-            <div id="navButtons">
-                <a class="topButton" href="index.html">Home</a>
-                <a class="topButton" href="Resume.html">Resume</a>
-                <a class="topButton" href="Projects.html">Projects</a>
-                <a class="topButton" href="contact.html">Contact</a>
-            </div>
+    <nav class="navbar">
+        <div class="portfolioTitle">
+            <h1>Caelan's Portfolio Website</h1>
+        </div>
+        <a href="javascript:void(0);" class="toggle-button" id="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links" id="navbar-links">
+            <ul>
+                <li><a class="topButton" href="index.html">Home</a></li>
+                <li><a class="topButton" href="Resume.html">Resume</a></li>
+                <li><a class="topButton" href="Projects.html">Projects</a></li>
+                <li><a class="topButton" href="contact.html">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
     <!-- body -->
-    <div id="pageTitle">
-        <h2>Resume</h2>
-        <p id="myName">Andrew <u>Caelan</u> Roberge-Toll</p>
-    </div>
-    <div class="workExperience">
-        <h3 id="workExperienceTitle"> <u>Work Experience</u></h3>
-        <!-- start of CSA -->
-        <div class="job">
-                <p id="CSA"><b>Customer Success Associate</b>, GlobalVision, Remote</p>
-                <p class="dates">August 2023 - Present</p>
+     <div class="mainSection">
+        <div id="pageTitle">
+            <h2>Resume</h2>
+            <p id="myName">Andrew <u>Caelan</u> Roberge-Toll</p>
+        </div>
+        <div class="workExperience">
+            <h3 id="workExperienceTitle"> <u>Work Experience</u></h3>
+            <!-- start of CSA -->
+            <div class="job">
+                    <p id="CSA"><b>Customer Success Associate</b>, GlobalVision, Remote</p>
+                    <p class="dates">August 2023 - Present</p>
+                    <button class="toggle-btn">
+                        <i class="fa-regular fa-folder-open fa-lg"></i>
+                    </button>
+                <div class="job-bullets">
+                    <ul>
+                        <li>Managed a BoB of 200+ SMB, Mid-Market, and Enterprise accounts in the Pharmaceutical, CPG, and Print&Pack industries with a total value of $1.5MM ARR.</li>
+                        <li>Built deep relationships with key customer stakeholders across technical and business domains to better understand their current state, goals and objectives regarding their use of GlobalVision’s products and created success plans to help them reach a successful state with the product.</li>
+                        <li>Proactively identified at-risk accounts and led recovery efforts to help get them back on track leading to a churn rate of under 4%.</li>
+                        <li>Managed the end-to-end renewal process, including contract preparation, negotiation, and close of the renewal.</li>
+                        <li>Collaborated closely with the Sales team to identify and execute upsell and cross-sell opportunities to drive account growth, adoption and expansion.</li>
+                        <li>Partnered closely with the Professional Services and Support teams to align on project strategy and ensure a smooth transition and handoff during the onboarding process and getting the customer to the first point of success.</li>
+                        <li>Measured on: Renewal Rate, Logo Churn, CSQLs.</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <!-- start of BDR -->
+            <div class="job">
+                <p id="BDR"><b>Business Development Representative</b>, GlobalVision, Remote</p>
+                <p class="dates">August 2022 - August 2023</p>
                 <button class="toggle-btn">
                     <i class="fa-regular fa-folder-open fa-lg"></i>
                 </button>
-            <div class="job-bullets">
-                <ul>
-                    <li>Managed a BoB of 200+ SMB, Mid-Market, and Enterprise accounts in the Pharmaceutical, CPG, and Print&Pack industries with a total value of $1.5MM ARR.</li>
-                    <li>Built deep relationships with key customer stakeholders across technical and business domains to better understand their current state, goals and objectives regarding their use of GlobalVision’s products and created success plans to help them reach a successful state with the product.</li>
-                    <li>Proactively identified at-risk accounts and led recovery efforts to help get them back on track leading to a churn rate of under 4%.</li>
-                    <li>Managed the end-to-end renewal process, including contract preparation, negotiation, and close of the renewal.</li>
-                    <li>Collaborated closely with the Sales team to identify and execute upsell and cross-sell opportunities to drive account growth, adoption and expansion.</li>
-                    <li>Partnered closely with the Professional Services and Support teams to align on project strategy and ensure a smooth transition and handoff during the onboarding process and getting the customer to the first point of success.</li>
-                    <li>Measured on: Renewal Rate, Logo Churn, CSQLs.</li>
-                </ul>
+                <div class="job-bullets">
+                    <ul>
+                        <li>Achieved 140% of ARR quota for Q1 and Q2 of 2023 (Target: $750k, Achieved: $1.1MM).</li>
+                        <li>Completed daily outbound tasks including cold calling, cold emailing, and social outreach to hit KPIs and volume targets set by management to drive net new revenue pipeline.</li>
+                        <li>Built relationships with executives at all levels within the Pharmaceutical and CPG industries to drive net new logo expansion and expand existing accounts.</li>
+                        <li>Dissected and qualified prospects’ business goals to determine if GlobalVision could be a strategic investment for their business growth by highlighting the product’s value.</li>
+                        <li>Communicated cross-functionally with other departments internally (Customer Success, Support, Professional Services) to ensure a smooth flow of information regarding accounts and new prospects.</li>
+                    </ul>
+                </div>
             </div>
+
+            <!-- start of musician -->
+            <div class="job">
+                <p id="Musician"><b>Musician</b>, Canadian Armed Forces, Ottawa/Toronto</p>
+                <p class="dates">April 2017 - December 2022</p>
+                <button class="toggle-btn">
+                    <i class="fa-regular fa-folder-open fa-lg"></i>
+                </button>
+                <div class="job-bullets">
+                    <ul>
+                        <li>Provided musical support at multiple ceremonies for high-level members of the Canadian Forces, the Canadian Government, and foreign dignitaries as a member of 5 different regiments in the Canadian Armed Forces.</li>
+                        <li>Led a cross-functional team using Agile methodologies through all stages of the project lifecycle for the Governor General’s Foot Guards 150th birthday celebration website project.</li>
+                        <li>Liaised with outside vendors to purchase music and supplies critical to the functioning of the Central Band of the Canadian Armed Forces.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="spacer"></div>
             
+        <div id="education">
+            <h3 id="educationTitle"><u>Education</u></h3>
+            <p id="degree"><b>Bachelor of Music in Jazz Performance</b>, University of Toronto, Toronto, Canada</p>
+            <p class="dates">2014 - 2018</p>
         </div>
 
-        <!-- start of BDR -->
-        <div class="job">
-            <p id="BDR"><b>Business Development Representative</b>, GlobalVision, Remote</p>
-            <p class="dates">August 2022 - August 2023</p>
-            <button class="toggle-btn">
-                <i class="fa-regular fa-folder-open fa-lg"></i>
-            </button>
-            <div class="job-bullets">
-                <ul>
-                    <li>Achieved 140% of ARR quota for Q1 and Q2 of 2023 (Target: $750k, Achieved: $1.1MM).</li>
-                    <li>Completed daily outbound tasks including cold calling, cold emailing, and social outreach to hit KPIs and volume targets set by management to drive net new revenue pipeline.</li>
-                    <li>Built relationships with executives at all levels within the Pharmaceutical and CPG industries to drive net new logo expansion and expand existing accounts.</li>
-                    <li>Dissected and qualified prospects’ business goals to determine if GlobalVision could be a strategic investment for their business growth by highlighting the product’s value.</li>
-                    <li>Communicated cross-functionally with other departments internally (Customer Success, Support, Professional Services) to ensure a smooth flow of information regarding accounts and new prospects.</li>
-                </ul>
-            </div>
+        <div id="spacer"></div>
+
+        <div id="certifications">
+            <h3 id="certificationsTitle"><u>Certifications</u></h3>
+            <p><b>Certified Customer Success Professional Level 1 - Gainsight Pulse Plus</b></p>
+            <p class="dates">Completed - 2024</p>
+            <p><b>Certified Customer Success Manager (CCSM) Level 1 - Success Hacker</b></p>
+            <p class="dates">Completed - 2023</p>
+            <p><b>Google IT Support Professional Certificate - Coursera</b></p>
+            <p class="dates">Completed - 2021</p>
         </div>
-
-        <!-- start of musician -->
-        <div class="job">
-            <p id="Musician"><b>Musician</b>, Canadian Armed Forces, Ottawa/Toronto</p>
-            <p class="dates">April 2017 - December 2022</p>
-            <button class="toggle-btn">
-                <i class="fa-regular fa-folder-open fa-lg"></i>
-            </button>
-            <div class="job-bullets">
-                <ul>
-                    <li>Provided musical support at multiple ceremonies for high-level members of the Canadian Forces, the Canadian Government, and foreign dignitaries as a member of 5 different regiments in the Canadian Armed Forces.</li>
-                    <li>Led a cross-functional team using Agile methodologies through all stages of the project lifecycle for the Governor General’s Foot Guards 150th birthday celebration website project.</li>
-                    <li>Liaised with outside vendors to purchase music and supplies critical to the functioning of the Central Band of the Canadian Armed Forces.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div id="spacer"></div>
-        
-    <div id="education">
-        <h3 id="educationTitle"><u>Education</u></h3>
-        <p id="degree"><b>Bachelor of Music in Jazz Performance</b>, University of Toronto, Toronto, Canada</p>
-        <p class="dates">2014 - 2018</p>
-    </div>
-
-    <div id="spacer"></div>
-
-    <div id="certifications">
-        <h3 id="certificationsTitle"><u>Certifications</u></h3>
-        <p><b>Certified Customer Success Professional Level 1 - Gainsight Pulse Plus</b></p>
-        <p class="dates">Completed - 2024</p>
-        <p><b>Certified Customer Success Manager (CCSM) Level 1 - Success Hacker</b></p>
-        <p class="dates">Completed - 2023</p>
-        <p><b>Google IT Support Professional Certificate - Coursera</b></p>
-        <p class="dates">Completed - 2021</p>
     </div>
     <!-- footer -->
     <footer>
