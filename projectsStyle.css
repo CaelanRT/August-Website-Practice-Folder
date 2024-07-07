@@ -36,6 +36,10 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 25px;
+}
+
 .spacer {
     background-color: black;
     height: 1px;
@@ -47,6 +51,15 @@ h2 {
 }
 
 .groceryBud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.interactiveMenu {
     display: flex;
     justify-content: center;
     align-items: center;
