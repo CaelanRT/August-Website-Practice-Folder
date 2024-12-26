@@ -112,9 +112,6 @@ h3 {
     height: 300px;
 }
 
-#sensor {
-    outline: 1px black;
-}
 
 .library-terminal-project {
     display: flex;
